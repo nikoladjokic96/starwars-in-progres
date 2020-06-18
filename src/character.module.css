@@ -1,0 +1,32 @@
+.character {
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px lightskyblue;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  background: rgb(95, 95, 95);
+  align-items: center;
+  min-width: 30%;
+  max-width: 40%;
+  opacity: 90%;
+  padding: 0;
+  /* flex: 1; */
+  height: 50px;
+  overflow: hidden;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.character:hover {
+  /* flex: 2; */
+  height: min-content;
+  opacity: 100%;
+  /* position: absolute;
+  z-index: 1; */
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.character h1 {
+  margin: 0px;
+}
